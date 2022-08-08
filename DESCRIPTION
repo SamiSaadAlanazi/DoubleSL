@@ -1,0 +1,42 @@
+Package: DoubleSL
+Type: Package
+Title: The Double Super Learner Estimation Method
+Version: 0.1.0
+Author: Sami Saad Alanazi 
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: Helps to Perform the DML and DSL methods and Generates the Needed Datasets.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Imports:
+  DoubleML,
+  biglasso,
+  KernelKnn,
+  ranger,
+  xgboost,
+  SuperLearner,
+  clusterGeneration,
+  mvtnorm,
+  randomForest,
+  foreach,
+  doSNOW,
+  parallel,
+  rlist,
+  mnormt
+RoxygenNote: 7.2.1
+Depends: 
+  DoubleML,
+  biglasso,
+  KernelKnn,
+  ranger,
+  xgboost,
+  SuperLearner,
+  clusterGeneration,
+  mvtnorm,
+  randomForest,
+  foreach,
+  doSNOW,
+  parallel,
+  rlist,
+  mnormt,
+    R (>= 2.10)
